@@ -1,3 +1,5 @@
+<link href="https://cdn.jsdelivr.net/npm/bootstrap@5.0.2/dist/css/bootstrap.min.css" rel="stylesheet"
+    integrity="sha384-EVSTQN3/azprG1Anm3QDgpJLIm9Nao0Yz1ztcQTwFspd3yD65VohhpuuCOmLASjC" crossorigin="anonymous">
 
 <?php
 $login = $_POST['login'];
@@ -18,7 +20,7 @@ if ($login == 'ForBhavya') {
       <div class="collapse navbar-collapse" id="navbarSupportedContent">
         <ul class="navbar-nav me-auto mb-2 mb-lg-0">
           <li class="nav-item">
-            <a class="nav-link active" aria-current="page" href="https://pwurl.ha1772007.repl.co">Refress</a>
+            <a class="nav-link active" aria-current="page" href="#">Refress</a>
           </li>
         </ul>
         <form class="d-flex">
@@ -30,9 +32,7 @@ if ($login == 'ForBhavya') {
   </nav>
 
 
-  <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.0.2/dist/css/bootstrap.min.css" rel="stylesheet"
-    integrity="sha384-EVSTQN3/azprG1Anm3QDgpJLIm9Nao0Yz1ztcQTwFspd3yD65VohhpuuCOmLASjC" crossorigin="anonymous">
-
+  
   <meta charset="utf-8">
   <meta name="viewport" content="width=device-width">
   <title>replit</title>
@@ -59,6 +59,7 @@ if ($login == 'ForBhavya') {
   <title>LOGIN</title>
  </head>
  <body>
+  <div class=""
   <form method="post" action="index.php">
     <input type="text" name="login" placeholder="Enter Password To Login" />
     <input type="submit" name="submit" value="submit" />
