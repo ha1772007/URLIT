@@ -1,5 +1,7 @@
+
 <?php
-if(isset($_POST('login'))){
+echo 
+if(isset($_GET('login'))){
 
 
 ?>
