@@ -50,7 +50,7 @@ if(isset($_POST('login'))){
 </body>
 
 </html>
-<?php else{
+<?php }else{
   echo "<h1>NO LOGIN USER</h1>"
 }
 ?>
