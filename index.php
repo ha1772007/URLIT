@@ -1,7 +1,7 @@
 
 <?php
 echo "hello";
-$login = $_GET('login');
+$login = $_GET['login'];
 if (isset($login)) {
 ?>
 <!DOCTYPE html>
