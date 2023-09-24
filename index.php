@@ -1,11 +1,9 @@
 
 <?php
-echo 
-if(isset($_GET('login'))){
-
-
+echo "hello";
+$login = $_GET('login');
+if (isset($login)) {
 ?>
-
 <!DOCTYPE html>
 <html>
 
