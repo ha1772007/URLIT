@@ -84,7 +84,7 @@ if ($login == 'ForBhavya') {
   <meta name="viewport" content="width=device-width">
   <title>replit</title>
   <link href="style.css" rel="stylesheet" type="text/css" />
-  <div class="mid position-absolute top-50 start-50 translate-middle border border-info border-3 rounded-3">
+  <div class="midlo position-absolute top-50 start-50 translate-middle border border-info border-3 rounded-3">
   <form method="post" action="index.php">
     <input type="text" name="login" placeholder="Enter Password To Login" />
     <button class="go btn btn-primary" type="submit" name="submit" value="submit" class="btn primary" >Submit</button>
