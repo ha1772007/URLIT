@@ -1,6 +1,6 @@
 
 <?php
-$login = $_GET['login'];
+$login = $_POST['login'];
 if (isset($login)) {
 ?>
 <!DOCTYPE html>
@@ -59,7 +59,7 @@ if (isset($login)) {
   <title>LOGIN</title>
  </head>
  <body>
-  <form method="get" action="index.php">
+  <form method="post" action="index.php">
     <input type="text" name="login" placeholder="Enter Password To Login" />
     <input type="submit" name="submit" value="submit" />
   </form>
