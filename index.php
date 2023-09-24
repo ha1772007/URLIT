@@ -1,3 +1,9 @@
+<?php
+if(isset($_POST('login'))){
+
+
+?>
+
 <!DOCTYPE html>
 <html>
 
@@ -44,3 +50,7 @@
 </body>
 
 </html>
+<?php else{
+  echo "<h1>NO LOGIN USER</h1>"
+}
+?>
