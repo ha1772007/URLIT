@@ -62,7 +62,7 @@ if ($login == 'ForBhavya') {
   <div class=""
   <form method="post" action="index.php">
     <input type="text" name="login" placeholder="Enter Password To Login" />
-    <input type="submit" name="submit" value="submit" />
+    <input type="submit" name="submit" value="submit" class="btn primary" />
   </form>
  </body>
  </html>
