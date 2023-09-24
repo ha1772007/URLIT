@@ -1,7 +1,7 @@
 
 <?php
 $login = $_POST['login'];
-if (isset($login) & $login = 'ForBhavya') {
+if ($login == 'ForBhavya') {
 ?>
 <!DOCTYPE html>
 <html>
