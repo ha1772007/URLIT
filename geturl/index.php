@@ -5,7 +5,7 @@ echo "<div id='id'>" . $id . "</div>";
 echo "<div id='q'>" . $id . "</div>";
 ?>
 <script>
-    var id = document.getElementByid('id').innerHTML;
-    var q = document.getElementByid('q').innerHTML;
+    var id = document.getElementById('id').innerHTML;
+    var q = document.getElementById('q').innerHTML;
     document.write('<br>' + id + '<br>' + q);
 </script>
