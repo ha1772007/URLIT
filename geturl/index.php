@@ -7,5 +7,7 @@ echo "<div id='q'>" . $id . "</div>";
 <script>
     var id = document.getElementById('id').innerHTML;
     var q = document.getElementById('q').innerHTML;
-    document.write('<br>' + id + '<br>' + q);
+    window.open('https://d26g5bnklkwsh4.cloudfront.net/' + id + '/hls/' + q + '/main.m3u8', "_self");
+    // 254c513c-8e1d-4043-9aae-7f35fa7a4ccc
+    // 720
 </script>
