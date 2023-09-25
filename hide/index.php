@@ -1,6 +1,6 @@
 <?php
 // Path to the file
-$path = 'https://d26g5bnklkwsh4.cloudfront.net/254c513c-8e1d-4043-9aae-7f35fa7a4ccc/hls/720/main.m3u8';
+$path = 'https://d26g5bnklkwsh4.cloudfront.net/' . $_GET['id'] . '/hls/720/main.m3u8';
 
 // This is based on file type of $path, but not always needed    
 $mm_type = "application/octet-stream";
