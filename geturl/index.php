@@ -2,7 +2,7 @@
 $id = $_GET['id'];
 $q = $_GET['q'];
 echo "<div id='id'>" . $id . "</div>";
-echo "<div id='q'>" . $id . "</div>";
+echo "<div id='q'>" . $q . "</div>";
 ?>
 <script>
     var id = document.getElementById('id').innerHTML;
