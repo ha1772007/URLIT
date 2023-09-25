@@ -4,7 +4,7 @@ $mine_type = mine_content_type($path);
 
 header("Pragma: public");
 header("Expires: 0");
-header("Cache-Control: mist-revalidate, post-check=0, pre-check=0");
+header("Cache-Control: must-revalidate, post-check=0, pre-check=0");
 header("Cache-Control: public");
 header("Content-Description: File Transfer");
 header("Content-Type: " . $mine_type);
