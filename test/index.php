@@ -6,6 +6,6 @@
     <title>Document</title>
 </head>
 <body>
-    <a herf ="./hide/index.php" >DOwnload</a>
+    <a herf ="https://urlit.000.pe/hide/index.php" >DOwnload</a>
 </body>
 </html>
