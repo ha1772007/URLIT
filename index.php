@@ -40,8 +40,8 @@ if ($login == 'ForBhavya' | $login == 'NitinIsRussian') {
   <div class="mid position-absolute top-50 start-50 translate-middle border border-info border-3 rounded-3">
   <form method="post" action="index.php">  
   <input id="url" type="text" name='url' placeholder="Enter url" />
-  <input type="hidden" name='password' value="<?php echo $login; ?>"/>
-    <button class="go btn btn-primary" href="">GO</button>
+  <input type="hidden" name='l' value="<?php echo $login; ?>"/>
+    <button class="go btn btn-primary">GO</button>
     <div id="link"></div>
 
   </div>
