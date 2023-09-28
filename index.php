@@ -7,7 +7,7 @@ if ($login == 'ForBhavya' | $login == 'NitinIsRussian') {
 <html>
 
 <head>
- <title>Php shift</title>
+ <title>Enter URL</title>
  <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.0.2/dist/css/bootstrap.min.css" rel="stylesheet"
     integrity="sha384-EVSTQN3/azprG1Anm3QDgpJLIm9Nao0Yz1ztcQTwFspd3yD65VohhpuuCOmLASjC" crossorigin="anonymous">
   <nav class="navbar navbar-expand-lg navbar-light bg-light">
@@ -60,12 +60,12 @@ if ($login == 'ForBhavya' | $login == 'NitinIsRussian') {
 <html>
 
 <head>
- <title>Php shift</title>
+ <title>GET URL</title>
  <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.0.2/dist/css/bootstrap.min.css" rel="stylesheet"
     integrity="sha384-EVSTQN3/azprG1Anm3QDgpJLIm9Nao0Yz1ztcQTwFspd3yD65VohhpuuCOmLASjC" crossorigin="anonymous">
   <nav class="navbar navbar-expand-lg navbar-light bg-light">
     <div class="container-fluid">
-      <a class="navbar-brand font" href="#">GET URL</a>
+      <a class="navbar-brand font" href="#">URL CHANGER</a>
       <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarSupportedContent"
         aria-controls="navbarSupportedContent" aria-expanded="false" aria-label="Toggle navigation">
         <span class="navbar-toggler-icon"></span>
