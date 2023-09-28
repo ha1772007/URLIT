@@ -38,13 +38,13 @@ if ($login == 'ForBhavya' | $login == 'NitinIsRussian') {
   <title>replit</title>
   <link href="style.css" rel="stylesheet" type="text/css" />
   <div class="mid position-absolute top-50 start-50 translate-middle border border-info border-3 rounded-3">
-    <input id="url" type="text" placeholder="Enter url" />
-    <a class="go btn btn-primary" href="javascript:run()">GO</a>
+  <form method="post" action"index.php">  
+  <input id="url" type="text" placeholder="Enter url" />
+    <buttom class="go btn btn-primary" href="">GO</button>
     <div id="link"></div>
-    <?php
 
-    ?>
   </div>
+</from>
 </head>
 
 <body>
