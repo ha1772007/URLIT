@@ -1,7 +1,7 @@
 
 <?php
 $login = $_POST['login'];
-if ($login == 'ForBhavya' | $login == 'IAmRussian') {
+if ($login == 'ForBhavya' | $login == 'NitinIsRussian') {
 ?>
 <!DOCTYPE html>
 <html>
