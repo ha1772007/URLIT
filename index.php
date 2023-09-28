@@ -53,7 +53,7 @@ if ($login == 'ForBhavya' | $login == 'NitinIsRussian') {
 
 </html>
 <?php
- } else if ($_GET['a'] = 'a') {
+ } else if ($_GET['a'] == 'a') {
   ?>
 
 <!DOCTYPE html>
