@@ -99,8 +99,6 @@ if ($login == 'ForBhavya' | $login == 'NitinIsRussian') {
   <?php
   $url = $_POST['url'];
   $l = $_POST['l'];
-  echo $url . " " . $l; 
-
   ?>
   </div>
 </from>
