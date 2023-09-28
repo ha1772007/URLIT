@@ -54,19 +54,18 @@ if ($login == 'ForBhavya' | $login == 'NitinIsRussian') {
 
 </html>
 <?php
- } elseif ($_GET['a'] == 'a') {
+ } elseif ($_POST['l'] == 'ForBhavya') {
   ?>
-
 <!DOCTYPE html>
 <html>
 
 <head>
- <title>GET URL</title>
+ <title>Enter URL</title>
  <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.0.2/dist/css/bootstrap.min.css" rel="stylesheet"
     integrity="sha384-EVSTQN3/azprG1Anm3QDgpJLIm9Nao0Yz1ztcQTwFspd3yD65VohhpuuCOmLASjC" crossorigin="anonymous">
   <nav class="navbar navbar-expand-lg navbar-light bg-light">
     <div class="container-fluid">
-      <a class="navbar-brand font" href="#">URL CHANGER</a>
+      <a class="navbar-brand font" href="#">Url Changer</a>
       <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarSupportedContent"
         aria-controls="navbarSupportedContent" aria-expanded="false" aria-label="Toggle navigation">
         <span class="navbar-toggler-icon"></span>
@@ -92,13 +91,19 @@ if ($login == 'ForBhavya' | $login == 'NitinIsRussian') {
   <title>replit</title>
   <link href="style.css" rel="stylesheet" type="text/css" />
   <div class="mid position-absolute top-50 start-50 translate-middle border border-info border-3 rounded-3">
-    <input id="url" type="text" placeholder="Enter url" />
-    <a class="go btn btn-primary" href="javascript:run()">GO</a>
+  <form method="post" action="index.php">  
+  <input id="url" type="text" name='url' placeholder="Enter url" />
+  <input type="hidden" name='password' value="<?php echo $login; ?>"/>
+    <buttom class="go btn btn-primary" href="">GO</button>
     <div id="link"></div>
-    <?php
+  <?php
+  $url = $_POST['url'];
+  $l = $_POST['l'];
+  echo $url . " " . $l; 
 
-    ?>
+  ?>
   </div>
+</from>
 </head>
 
 <body>
