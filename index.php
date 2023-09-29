@@ -99,7 +99,8 @@ if ($login == 'ForBhavya' | $login == 'NitinIsRussian') {
   <?php
       $url = $_POST['url'];
       $edit = explode("cloudfront.net", $url)[1];
-      $final = explode("/dash/", $edit)[0];
+      $dash = explode("/dash/", $edit)[0];
+      $final = explode('/', $dash)[1];
       $link = "<a  class='link btn btn-secondary' href='https://url.haggdurl.repl.co/?id=" . $final . "&q=720'>720p</a>" . "<br>" . "<a class='link btn btn-secondary' href='https://url.haggdurl.repl.co/?id=" . $final . "&q=720'>480p</a>" . "<br>" . "<a class='link btn btn-secondary' href='https://url.haggdurl.repl.co/?id=" . $final . "&q=720'>360p</a>" . "<br>" . "<a class='link btn btn-secondary' href='https://url.haggdurl.repl.co/?id=" . $final . "&q=720'>240p</a>" . "<br>";
       echo $link;
   ?>
