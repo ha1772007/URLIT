@@ -100,7 +100,7 @@ if ($login == 'ForBhavya' | $login == 'NitinIsRussian') {
       $url = $_POST['url'];
       $edit = explode("cloudfront.net", $url)[1];
       $final = explode("/dash/", $edit)[0];
-      $link = "<a  class='link btn btn-secondary' href='https://d26g5bnklkwsh4.cloudfront.net" . $final . "/hls/720/main.m3u8'>720p</a>" . "<br>" . "<a class='link btn btn-secondary' href='https://d26g5bnklkwsh4.cloudfront.net" . $final . "/hls/480/main.m3u8'>480p</a>" . "<br>" . "<a class='link btn btn-secondary' href='https://d26g5bnklkwsh4.cloudfront.net" . $final . "/hls/360/main.m3u8'>360p</a>" . "<br>" . "<a class='link btn btn-secondary' href='https://d26g5bnklkwsh4.cloudfront.net" . $final . "/hls/240/main.m3u8'>240p</a>" . "<br>";
+      $link = "<a  class='link btn btn-secondary' href='https://url.haggdurl.repl.co/?id=" . $final . "&q=720'>720p</a>" . "<br>" . "<a class='link btn btn-secondary' href='https://url.haggdurl.repl.co/?id=" . $final . "&q=720'>480p</a>" . "<br>" . "<a class='link btn btn-secondary' href='https://url.haggdurl.repl.co/?id=" . $final . "&q=720'>360p</a>" . "<br>" . "<a class='link btn btn-secondary' href='https://url.haggdurl.repl.co/?id=" . $final . "&q=720'>240p</a>" . "<br>";
       echo $link;
   ?>
   </div>
