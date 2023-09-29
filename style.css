@@ -1,0 +1,92 @@
+@import url('https://fonts.googleapis.com/css2?family=Caprasimo&display=swap');
+
+html {
+  width: 100%;
+}
+
+
+
+
+
+
+@media screen and (max-width: 750px) {
+  .mid {
+    width: 50%;
+    height: 50%;
+  }
+
+  .mid input {
+    width: 80%;
+    margin-left: 10%;
+    margin-top: 1%;
+    border: 2px solid blue;
+    height: 5vh;
+  }
+    .midlo {
+    width: 50%;
+    height: 15%;
+  }
+
+  .midlo input {
+    width: 80%;
+    margin-left: 10%;
+    margin-top: 1%;
+    border: 2px solid blue;
+    height: 5vh;
+  }
+
+  .go {
+    margin-left: 10%;
+    width: 80%;
+    height: 5vh;
+  }
+
+  .link {
+    width: 80%;
+    padding: 6%;
+    margin-left: 10%;
+    margin-top: 1%;
+    height: 2%;
+  }
+}
+
+@media all and (min-width: 751px) {
+  .mid {
+    width: 50%;
+    height: 70%;
+  }
+
+  .mid input {
+    width: 80%;
+    margin-top: 1%;
+    border: 2px solid blue;
+    height: 5vh;
+  }
+      .midlo {
+    width: 50%;
+    height: 10%;
+  }
+
+  .midlo input {
+    width: 80%;
+    margin-top: 1%;
+    border: 2px solid blue;
+    height: 5vh;
+  }
+  .go {
+    width: 17%;
+    height: 5vh;
+  }
+
+  .link {
+    width: 80%;
+    padding: 6%;
+    margin-left: 10%;
+    margin-top: 1%;
+    height: 1px;
+  }
+}
+
+.font {
+  font-family: 'Caprasimo', cursive;
+}
