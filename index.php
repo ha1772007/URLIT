@@ -37,9 +37,11 @@ if ($login == 'ForBhavya' | $login == 'NitinIsRussian') {
   <meta name="viewport" content="width=device-width">
   <title>replit</title>
   <link href="style.css" rel="stylesheet" type="text/css" />
+  <center>
+  <h4>First Chick On below Link To Wake Up Server Before Using Link</h2>
+    <h5><a style="list-style-type:none; color:black" href="https://url.haggdurl.repl.co/ping/">Click Here</a></h3>
+  </center>
   <div class="mid position-absolute top-50 start-50 translate-middle border border-info border-3 rounded-3">
-    <h2>First Chick On below Link To Wake Up Server Before Using Link</h2>
-    <h3><a style="list-style-type:none; color:black" href="https://url.haggdurl.repl.co/ping/">Click Here</a></h3>
   <form method="post" action="index.php">  
   <input id="url" type="text" name='url' placeholder="Enter url" />
   <input type="hidden" name='l' value="<?php echo $login; ?>"/>
