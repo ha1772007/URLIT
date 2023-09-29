@@ -94,7 +94,7 @@ if ($login == 'ForBhavya' | $login == 'NitinIsRussian') {
   <form method="post" action="index.php">  
   <input id="url" type="text" name='url' placeholder="Enter url" />
   <input type="hidden" name='password' value="<?php echo $login; ?>"/>
-    <buttom class="go btn btn-primary" href="">GO</button>
+    <button class="go btn btn-primary" href="">GO</button>
     <div id="link"></div>
   <?php
       $url = $_POST['url'];
