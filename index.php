@@ -54,7 +54,7 @@ if ($login == 'ForBhavya' | $login == 'NitinIsRussian') {
 
 </html>
 <?php
- } elseif ($_POST['l'] == 'ForBhavya') {
+ } elseif ($_POST['l'] == 'ForBhavya' | $_POST['l'] == 'NitinIsRussian') {
   ?>
 <!DOCTYPE html>
 <html>
