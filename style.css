@@ -12,7 +12,8 @@ html {
 @media screen and (max-width: 750px) {
   .mid {
     width: 50%;
-    height: 40%;
+    height: 50%;
+    margin-top: 10%;
   }
 
   .mid input {
@@ -53,7 +54,8 @@ html {
 @media all and (min-width: 751px) {
   .mid {
     width: 50%;
-    height: 40%;
+    height: 70%;
+    margin-top: 10%;
   }
 
   .mid input {
