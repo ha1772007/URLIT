@@ -3,15 +3,6 @@
 html {
   width: 100%;
 }
-body{
-  background-color: red;
-}
-
-
-
-
-
-
 @media screen and (max-width: 750px) {
   .mid {
     width: 50%;
