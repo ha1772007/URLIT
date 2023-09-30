@@ -1,4 +1,4 @@
-<link rel="stylesheet" href="style.css">
+<link rel="stylesheet" href="style.css" />
 <?php
 $login = $_POST['login'];
 if ($login == 'ForBhavya' | $login == 'NitinIsRussian') {
