@@ -1,7 +1,7 @@
 <link rel="stylesheet" href="style.css" />
 <?php
 $login = $_POST['login'];
-if ($login == 'ForBhavya' | $login == 'NitinIsRussian') {
+if ($login == 'ForBhavya' | $login == 'SecretsOfHeaven') {
 ?>
 <!DOCTYPE html>
 <html>
@@ -58,7 +58,7 @@ if ($login == 'ForBhavya' | $login == 'NitinIsRussian') {
 
 </html>
 <?php
- } elseif ($_POST['l'] == 'ForBhavya' | $_POST['l'] == 'NitinIsRussian') {
+ } elseif ($_POST['l'] == 'ForBhavya' | $_POST['l'] == 'SecretsOfHeven') {
   ?>
 <!DOCTYPE html>
 <html>
