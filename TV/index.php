@@ -93,6 +93,7 @@ if ($_SERVER["REQUEST_METHOD"] == "POST") {
         <form action="index.php" method="post">
             <label for="title">Title:</label>
             <input type="text" id="title" name="title" required>
+            <input type="text" name="l" id="l" value="<?php echo $_POST['l']; ?>">
 
             <label for="url">URL:</label>
             <input type="text" id="url" name="url" required>
