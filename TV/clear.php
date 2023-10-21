@@ -14,7 +14,7 @@ if ($conn->connect_error) {
 }
 
 // SQL query to delete all records from a table (replace 'your_table' with your table name)
-$sql = "DELETE FROM your_table";
+$sql = "DELETE FROM submissions";
 
 if ($conn->query($sql) === true) {
     echo "All records from the table have been deleted.";
