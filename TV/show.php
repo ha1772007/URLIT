@@ -2,7 +2,7 @@
 $db_host = 'sql202.infinityfree.com';
 $db_user = 'if0_35029802';
 $db_pass = 'DgVdABzbMgk';
-$db_name = 'DgVdABzbMgk';
+$db_name = 'if0_35029802_tvshare';
 
 $conn = new mysqli($db_host, $db_user, $db_pass, $db_name);
 
