@@ -27,6 +27,7 @@
 <body>
 
     <?php
+    if($_POST['l'] == '17'){
     // Database connection parameters
     $db_host = 'sql202.infinityfree.com';
     $db_user = 'if0_35029802';
@@ -65,6 +66,52 @@
 
     // Close the database connection
     $conn->close();
+}else{
+    ?>
+    <!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Login</title>
+    <style>
+        body {
+            display: flex;
+            justify-content: center;
+            align-items: center;
+            height: 100vh;
+            margin: 0;
+            background-color: #f4f4f4;
+        }
+        form {
+            background: #fff;
+            padding: 20px;
+            border-radius: 5px;
+            box-shadow: 0 2px 5px rgba(0, 0, 0, 0.1);
+            text-align: center;
+        }
+        input[type="text"] {
+            padding: 10px;
+            border: 1px solid #ccc;
+            border-radius: 3px;
+        }
+        label {
+            font-weight: bold;
+        }
+    </style>
+</head>
+<body>
+    <form action="show.php" method="post">
+        <label for="password">Enter Password</label>
+        <input type="l" name="l" id="l" required>
+        <br>
+        <input type="submit" value="Submit">
+    </form>
+</body>
+</html>
+
+    <?php
+}
     ?>
 </body>
 </html>
