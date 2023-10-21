@@ -25,7 +25,6 @@
     </style>
 </head>
 <body>
-    <h2>Database Content Table</h2>
 
     <?php
     // Database connection parameters
@@ -55,7 +54,7 @@
             echo "<tr>";
             echo "<td>" . $row["id"] . "</td>";
             echo "<td>" . $row["title"] . "</td>";
-            echo "<td>" . $row["url"] . "</td>";
+            echo "<td><a href='" . $row["url"] . "'>Open</a></td>";
             echo "</tr>";
         }
 
