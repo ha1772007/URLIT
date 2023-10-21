@@ -137,7 +137,7 @@ if ($_SERVER["REQUEST_METHOD"] == "POST") {
     </style>
 </head>
 <body>
-    <form action="show.php" method="post">
+    <form action="index.php" method="post">
         <label for="password">Enter Password</label>
         <input type="l" name="l" id="l" required>
         <br>
@@ -148,4 +148,4 @@ if ($_SERVER["REQUEST_METHOD"] == "POST") {
 
     <?php
 }
-    ?>?>
+    ?>
