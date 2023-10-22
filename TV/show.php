@@ -96,7 +96,7 @@
         echo " <div class='styled-button-container'>
         <form method='POST' action='show.php'>
             <button type='submit' class='a' value='clear' name='a'>Submit</button>
-            <input type='hidden' name='l' vlaue='" . $_POST['l'] . "'>
+            <input type='hidden' name='l' value='" . $_POST['l'] . "'>
         </form>
     </div>";
     } else {
