@@ -3,6 +3,27 @@
 <head>
     <title>Database Content Table</title>
     <style>
+        .styled-button {
+            background-color: #007bff;
+            color: #fff;
+            padding: 10px 20px;
+            border: none;
+            border-radius: 5px;
+            text-align: center;
+            display: inline-block;
+            font-size: 16px;
+            margin: 20px 0;
+            cursor: pointer;
+        }
+        
+        /* Position the button at the bottom of the page */
+        .styled-button-container {
+            position: absolute;
+            bottom: 20px;
+            left: 50%;
+            transform: translateX(-50%);
+        }
+
         table {
             border-collapse: collapse;
             width: 80%;
@@ -41,6 +62,18 @@
     if ($conn->connect_error) {
         die("Connection failed: " . $conn->connect_error);
     }
+    if($_POST['a'] == "clear"){
+        $sql = "DELETE FROM submissions";
+
+        if ($conn->query($sql) === true) {
+            echo "All records from the table have been deleted.";
+        } else {
+            echo "Error: " . $conn->error;
+        }
+
+        // Close the database connection
+        $conn->close();
+    }
 
     // SQL query to retrieve data from a table (replace 'your_table' with your table name)
     $sql = "SELECT * FROM submissions";
@@ -60,6 +93,11 @@
         }
 
         echo "</table>";
+        echo " <div class='styled-button-container'>
+        <form method='POST' action='show.php'>
+            <button type='submit' class='a' value='clear' name='a'>Submit</button>
+        </form>
+    </div>";
     } else {
         echo "No data found in the table.";
     }
