@@ -88,7 +88,8 @@
             echo "<tr>";
             echo "<td>" . $row["id"] . "</td>";
             echo "<td>" . $row["title"] . "</td>";
-            echo "<td><a href='https://urlit.000.pe/TV/play.php?url=" . urlencode($row["url"]) . "'>Open</a></td>";
+            echo "<td><a href='https://urlit.000.pe/TV/play.php?url=" . urlencode($row["url"]) . "'>Play</a></td>";
+            echo "<td><a href='" . urlencode($row["url"]) . "'>Open</a></td>";
             echo "</tr>";
         }
 
