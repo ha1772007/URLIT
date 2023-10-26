@@ -82,7 +82,7 @@
     // Display data in an HTML table
     if ($result->num_rows > 0) {
         echo "<table>";
-        echo "<tr><th>ID</th><th>Title</th><th>URL</th></tr>";
+        echo "<tr><th>ID</th><th>Title</th><th>URL</th><th>URL</th></tr>";
 
         while ($row = $result->fetch_assoc()) {
             echo "<tr>";
