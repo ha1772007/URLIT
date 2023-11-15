@@ -58,7 +58,7 @@ if ($login == 'ForBhavya' | $login == 'SecretsOfHeaven') {
 
 </html>
 <?php
- } elseif ($_POST['l'] == 'ForBhavya' | $_POST['l'] == 'SecretsOfHeaven') {
+ } elseif (isset($_POST['url'])) {
   ?>
 <!DOCTYPE html>
 <html>
