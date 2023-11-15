@@ -105,7 +105,7 @@ if ($login == 'ForBhavya' | $login == 'SecretsOfHeaven') {
       $edit = explode("cloudfront.net", $url)[1];
       $dash = explode("/dash/", $edit)[0];
       $final = explode('/', $dash)[1];
-      $link = "<a class='link btn btn-secondary' about="blank' href='https://d26g5bnklkwsh4.cloudfront.net/" . $final . "/hls/720/main.m3u8'>720p</a>" . "<br>" . "<a class='link btn btn-secondary' href='https://url.haggdurl.repl.co/?id=" . $final . "&q=480'>480p</a>" . "<br>" . "<a class='link btn btn-secondary' href='https://url.haggdurl.repl.co/?id=" . $final . "&q=360'>360p</a>" . "<br>" . "<a class='link btn btn-secondary' href='https://url.haggdurl.repl.co/?id=" . $final . "&q=240'>240p</a>" . "<br>";
+      $link = "<a class='link btn btn-secondary' about='_blank' href='https://d26g5bnklkwsh4.cloudfront.net/" . $final . "/hls/720/main.m3u8'>720p</a>" . "<br>" . "<a class='link btn btn-secondary' href='https://url.haggdurl.repl.co/?id=" . $final . "&q=480'>480p</a>" . "<br>" . "<a class='link btn btn-secondary' href='https://url.haggdurl.repl.co/?id=" . $final . "&q=360'>360p</a>" . "<br>" . "<a class='link btn btn-secondary' href='https://url.haggdurl.repl.co/?id=" . $final . "&q=240'>240p</a>" . "<br>";
       echo $link;
   ?>
   </div>
